@@ -2,7 +2,7 @@
 
 To adhere to GitHub's file size limits and data distribution best practices, the raw CSV files for this project are not hosted in this repository. 
 
-To execute this pipeline locally, you must download the source data directly from Kaggle.
+To execute this pipeline locally, you have to download the source data directly from Kaggle.
 
 ## Download Instructions
 1. Navigate to the Kaggle dataset page: **[Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**.
