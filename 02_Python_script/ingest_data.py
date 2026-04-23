@@ -17,7 +17,7 @@ encoded_password = quote_plus(DB_PASSWORD)
 # Create the SQLAlchemy Engine using the encoded password
 engine = create_engine(f'postgresql+psycopg2://{DB_USER}:{encoded_password}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
 
-# 2. Define the Files and Target Tables
+# 2. Define the Files and The Target Tables
 files_to_load = {
     'olist_customers_dataset.csv': 'olist_customers_dataset',
     'olist_geolocation_dataset.csv': 'olist_geolocation_dataset',
@@ -41,7 +41,7 @@ for file_name, table_name in files_to_load.items():
         
     print(f"Reading {file_name} into memory...")
     
-    # Read the CSV into a Pandas DataFrame
+    # To Read the CSV into a Pandas DataFrame
     try:
         df = pd.read_csv(file_name)
     except Exception as e:
