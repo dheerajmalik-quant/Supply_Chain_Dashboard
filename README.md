@@ -16,7 +16,7 @@ This project is an end-to-end Data Engineering and Business Intelligence solutio
 4. **Data Modeling & Visualization (Power BI):** Built a scalable Star Schema model connecting the datamart to a Portuguese-to-English translation table. Authored explicit DAX measures for executive KPIs and designed a Z-pattern dashboard for root-cause analysis.
 
 ## 📊 Dashboard & Key Insights
-https://github.com/dheerajmalik-quant/Supply_Chain_Dashboard/blob/main/04_dashboard/Dashboard.png
+https://github.com/dheerajmalik-quant/Supply_Chain_Dashboard/blob/main/04_dashboard/Snapshot.png
 
 * **The SLA Breakdown:** Identified two catastrophic system failures in November 2017 (12.40% late rate) and March 2018 (18.96% late rate), correlating directly with massive drops in average customer review scores (down to 3.74).
 * **The Root Cause:** Cross-filtering the data model revealed that freight carriers were systematically failing to handle large, bulky items during peak seasons. `Furniture, Mattresses, and Upholstery` was identified as the worst-performing product category, requiring immediate SLA renegotiation with logistics partners.
